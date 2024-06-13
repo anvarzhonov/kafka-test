@@ -1,0 +1,16 @@
+#spring:
+#  kafka:
+##    bootstrap-servers: ${spring.embedded.kafka.brokers}
+#    producer:
+#      properties:
+#        schema.registry.url: http://localhost:8081
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: com.example.kafka.support.CustomKafkaAvroSerializer
+##      auto.register.schemas: true
+#    consumer:
+#      properties:
+#        schema.registry.url: mock://localhost.something
+#      key-deserializer: org.apache.kafka.common.serialization.StringSerializer
+#    properties:
+#      schema.registry.url: mock://localhost.something
+##      value-deserializer: hr.ivlahek.showcase.mock.CustomKafkaAvroDeserializer
